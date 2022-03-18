@@ -1,13 +1,79 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  height: 100%;
+  background-color: gray;
+
 }
+
+p{
+  color: white;
+}
+/*
+.container {
+  width:200px;
+  position: relative;
+
+}
+.img{
+  position: relative;
+  width: 36px;height: 36px;
+  top:-40px;
+  left: 155px;
+  transform: scaleY(1);
+  transition: all 0.3s ease;
+}
+.imgB{
+  transform: scaleY(-1);
+  top:-44px;
+}
+
+
+.click,.links {
+  font-size: 1.2em; font-family: futura Md BT;
+   outline: none;  width:200px;
+  color:black;
+  transition: 0.3s;
+  border: none;
+  padding: 12px;
+  &:hover{
+      background-color: gray; 
+  }  
+}
+.links {
+  background-color: white;
+}
+
+.linksB{
+  @extend .links;
+  color: white;
+  background-color:black;
+}
+.click{
+  background-color: lightgrey;
+  color:black;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  margin-top: 60px; 
+
+}
+.list {
+  position: absolute;
+  transform: scaleY(0); transform-origin: top; transition: 0.3s;
+  width: inherit; 
+  z-index: 1;
+}
+
+
+.newlist {
+  transform: scaleY(1);
+}
+
+
+
+
+*/

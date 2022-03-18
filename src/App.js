@@ -1,24 +1,17 @@
-import logo from './logo.svg';
+import React,{ useState, useRef} from 'react';
 import './App.css';
+import Dropdown from './components/Dropdown';
+import Toptext from './components/Toptext';
 
 function App() {
+ const [value,setValue] = useState("arroz");
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Toptext text={value} method={setValue} />
+      <Dropdown text={value} method={setValue} />
     </div>
+    
   );
 }
 
