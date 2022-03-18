@@ -12,7 +12,7 @@ color:black;
 display: flex;
 justify-content: flex-start;
 position: relative;
-margin-top: 60px; 
+margin-top: 30px; 
 &:hover{
     background-color: gray; 
 }`
@@ -65,4 +65,10 @@ top:-40px;
 left: 155px;
 transform: scaleY(${(props) => props.idk});
 transition: all 0.3s ease;
+`
+
+
+export const StyledDropdownFather = styled.div`
+border: 2px solid black;
+display: flex;align-items: center;justify-content:center;flex-direction: column;
 `

@@ -1,17 +1,15 @@
-import React,{ useState, useRef} from 'react';
+import React from 'react';
 import './App.css';
-import Dropdown from './components/Dropdown';
-import Toptext from './components/Toptext';
+import DropdownFather from './components/DropdownFather/index.js';
+
 
 function App() {
- const [value,setValue] = useState("arroz");
+
 
   return (
     <div className="App">
-      <Toptext text={value} method={setValue} />
-      <Dropdown text={value} method={setValue} />
+    <DropdownFather/>
     </div>
-    
   );
 }
 

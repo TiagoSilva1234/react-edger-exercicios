@@ -5,10 +5,11 @@ import {Styledtext} from '../styles/dropdown.styled'
 
 const Toptext = ({text})=>{
     
-return(<>
+return(
+<>
 <Styledtext>hello: <span>{text}</span></Styledtext> 
-</>)
-
+</>
+)
 }
 
 
