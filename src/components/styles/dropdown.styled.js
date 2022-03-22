@@ -72,3 +72,34 @@ export const StyledDropdownFather = styled.div`
 border: 2px solid black;
 display: flex;align-items: center;justify-content:center;flex-direction: column;
 `
+
+export const StyledButtonBorder = styled.button`
+    width:200px;
+    height: 40px;
+    background-color: transparent;
+    border: 0px solid lightgrey;
+    border-color: lightgrey;
+    transition: all 0.3s ease;
+
+`
+
+export const StyledHr = styled.hr`
+  margin-top: 15px;
+width: 200px;
+margin-left: ${({margLeft})=> margLeft};
+transition: all 0.3s ease;
+background-color: black;
+ height: 4px;
+ border: none;
+ z-index: 9;
+`
+
+export const StyledBackHr = styled.hr`
+   width:600px;
+    transform: translateY(-4px);
+    height: 4px;
+    background-color: lightgrey;
+    border: none;
+    z-index: -1;
+    opacity: 0.3;
+`
