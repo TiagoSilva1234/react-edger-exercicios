@@ -4,10 +4,9 @@ import { StyledButtonBorder, StyledHr, StyledBackHr } from '../styles/dropdown.s
 
 const  SideButtons = () => {
   const [margin,setMargin] = useState("")
-  const [url, setUrl] = useState("")
+  const [url, setUrl] = useState("https://www.teleculinaria.pt/wp-content/uploads/2015/07/panados-de-porco-com-arroz-colorido.jpg")
  
 
- useLayoutEffect(()=> setUrl("https://www.teleculinaria.pt/wp-content/uploads/2015/07/panados-de-porco-com-arroz-colorido.jpg"),[])
  function handleClick(M,U){
   setMargin(M);
   setUrl(U);
